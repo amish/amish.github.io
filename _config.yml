@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      Rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            ''
+tagline:          'Amish Dhandhukia'
+description:      ''
+url:              https://amish.github.io
+baseurl:          /
+blogurl:          /blog
+
+author:
+  name:           'Amish Dhandhukia'
+  url:            https://twitter.com/amishd
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/amish
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - redcarpet

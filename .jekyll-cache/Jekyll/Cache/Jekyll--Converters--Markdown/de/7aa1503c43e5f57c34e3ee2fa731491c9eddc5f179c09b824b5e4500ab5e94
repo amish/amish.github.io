@@ -1,0 +1,33 @@
+I"M<div class="related">
+  <ul>
+  
+  <article>
+    <h3>
+      <a href="/2013/12/28/introducing-hyde/">
+        Introducing Hyde
+      </a>
+    </h3>
+    <time datetime="2013-12-28">28 December 2013</time>
+  </article>
+
+  <article>
+    <h3>
+      <a href="/2012/02/07/example-content/">
+        Example content
+      </a>
+    </h3>
+    <time datetime="2012-02-07">07 February 2012</time>
+  </article>
+
+  <article>
+    <h3>
+      <a href="/2012/02/06/whats-jekyll/">
+        What's Jekyll?
+      </a>
+    </h3>
+    <time datetime="2012-02-06">06 February 2012</time>
+  </article>
+
+</ul>
+</div>
+:ET
