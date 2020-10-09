@@ -10,7 +10,7 @@ title:            ''
 tagline:          'Amish Dhandhukia'
 description:      ''
 url:              https://amish.github.io
-baseurl:          /
+baseurl:          ''
 blogurl:          /blog
 
 author:
