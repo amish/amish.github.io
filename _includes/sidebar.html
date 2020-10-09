@@ -12,7 +12,11 @@
     <nav class="sidebar-nav">
       <img class="profile-pic" src="{{ site.baseurl }}public/img/profile.jpg" alt="">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.projectsurl %} active{% endif %}" href="{{ site.projectsurl }}">Projects</a>
+      <a class="sidebar-nav-item{% if page.url == site.blogurl %} active{% endif %}" href="{{ site.blogurl }}">Blog</a>
+      <a class="sidebar-nav-item{% if page.url == site.contacturl %} active{% endif %}" href="{{ site.contacturl }}">Contact</a>
 
+      <!--
       {% comment %}
       The code below dynamically generates a sidebar nav of pages with
       `layout: page` in the front-matter. See readme for usage.
@@ -26,7 +30,10 @@
             {% endif %}
           {% endif %}
         {% endfor %}
+        -->
     </nav>
+
+    
 
     <p><span class="sidebar-nav-item" style="font-size:16px;">Thank you for visiting!</span></p>
     <p style="font-size:15px;">&copy; {{ site.time | date: '%Y' }}</p>
