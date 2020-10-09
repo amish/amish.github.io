@@ -1,9 +1,4 @@
----
-layout: page
-title: Contact
----
-
-<div class="related"></div>
+I"Ù<div class="related"></div>
 
 <div>
     <span><a href="mailto:amish.dhandhukia@gmail.com" class="fa fa-mail"></a></span>
@@ -14,3 +9,4 @@ title: Contact
     <span><a href="https://open.spotify.com/playlist/6yybBzWonwzxqTLJRVMKBr?si=VZJ2gp6uRNesB6wtDe7Gzw" class="fa fa-music"></a></span>
     <span><a href="https://www.amazon.in/hz/wishlist/ls/X75E7ENTRKPO?ref_=wl_share" class="fa fa-wishlist"></a></span>
 </div>
+:ET
