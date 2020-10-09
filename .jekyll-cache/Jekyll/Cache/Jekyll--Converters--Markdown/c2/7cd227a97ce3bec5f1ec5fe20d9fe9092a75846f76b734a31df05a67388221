@@ -1,9 +1,4 @@
----
-layout: page
-title: Contact
----
-
-<div class="related"></div>
+I"—<div class="related"></div>
 
 <div>
     <span><a href="mailto:amish.dhandhukia@gmail.com" class="fa fa-mail"></a></span>
@@ -11,6 +6,6 @@ title: Contact
     <span><a href="#" class="fa fa-kaggle"></a></span>
     <span><a href="#" class="fa fa-twitter"></a></span>
     <span><a href="#" class="fa fa-facebook"></a></span>
-    <span><a href="#" class="fa fa-music"></a></span>
     <span><a href="#" class="fa fa-wishlist"></a></span>
 </div>
+:ET

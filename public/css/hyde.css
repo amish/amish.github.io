@@ -31,6 +31,21 @@
  * Update the foundational and global aspects of the page.
  */
 
+ * {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+*::selection {
+  background: none;
+}
+*::-moz-selection {
+  background: none;
+}
+
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
@@ -173,6 +188,51 @@ a.sidebar-nav-item:focus {
   }
 }
 
+
+/*
+ * Contact social-media icons
+ */
+
+.fa { 
+   height: 32px;
+   width: 32px;
+   display: inline-block;
+   text-align: center;
+   text-decoration: none;
+   margin: 5px 10px;
+}
+ 
+.fa:hover {
+     opacity: 0.8;
+}
+ 
+.fa-mail {
+  background: url('../img/mail.svg');
+}
+ 
+.fa-github {
+  background: url('../img/github.svg');
+}
+ 
+.fa-kaggle {
+  background: url('../img/kaggle.svg');
+} 
+ 
+.fa-twitter {
+  background: url('../img/t32.svg');
+}
+ 
+.fa-facebook {
+  background: url('../img/f32.svg');
+}
+
+.fa-music {
+  background: url('../img/music.svg');
+}
+
+.fa-wishlist {
+  background: url('../img/gift.svg');
+}
 
 
 /*
