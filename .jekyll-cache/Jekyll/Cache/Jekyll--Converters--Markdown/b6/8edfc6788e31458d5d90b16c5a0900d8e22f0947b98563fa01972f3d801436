@@ -1,0 +1,40 @@
+I"{<blockquote>
+  <p>Handy Pandas library code snippets to do table based data manipulation</p>
+</blockquote>
+
+<p>When copying a DataFrame, always use below method so changing the original DataFrame doesn’t change the copied one:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">output_df = df.copy(deep=True)</code></pre></figure>
+
+<p>Check Statistics of Numeric feature columns in a DataFrame:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">pd.set_option(&#39;display.float_format&#39;, 
+               lambda x: &#39;%.5f&#39; % x)
+data.describe()
+data.describe().transpose()
+data.info()</code></pre></figure>
+
+<p>Change Dataframe column / Series to datetime data type:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">data[&#39;Day&#39;] = pd.to_datetime(data[&#39;Day&#39;], 
+                             format=&#39;%d/%m/%Y&#39;)</code></pre></figure>
+
+<p>Get Rows based on some condition / between specific dates:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">transactions[(transactions[&#39;date&#39;].dt.year == 2014) &amp; 
+             (transactions[&#39;date&#39;].dt.month &gt;= 6) &amp; 
+             (transactions[&#39;date&#39;].dt.month &lt;= 8)]</code></pre></figure>
+
+<p>Get other column’s cell value based on condition in another column:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">data.loc[data[&#39;Average barometer (in)&#39;] == data[&#39;Average barometer (in)&#39;].median(), &#39;Day&#39;].iloc[0]
+
+data[&#39;Parch&#39;][(data[&#39;Age&#39;] &lt; 15) &amp; 
+              (data[&#39;Title&#39;] == &#39;Miss&#39;)]
+
+mask[mask[&#39;item_price&#39;] == mask[&#39;item_price&#39;].max()][&#39;item_id&#39;].iloc[0]</code></pre></figure>
+
+<hr />
+
+<p>Want to see something else added? <a href="https://amish.github.io/about">Request</a></p>
+:ET
