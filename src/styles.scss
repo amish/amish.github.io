@@ -1,0 +1,21 @@
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    font-family: "Roboto";
+}
+
+body {
+    background-color: #1a1c20;
+    color: #fff;
+}
