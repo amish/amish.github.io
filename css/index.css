@@ -1,31 +1,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
-	line-height: 2;
-	max-width: 800px;
-	margin: auto;
-}
-
-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 60%;
-	padding: 50px;
-}
-
-#list {
-	border: 1px solid white;
-	border-collapse: collapse;
-	max-width: 600px;
-}
-
-#list td {
-	padding: 10px;
-}
-
-hr {
-	margin-top: 25px;
+	line-height: 1.8;
 }
 
 a {
@@ -37,6 +13,7 @@ a:hover {
 }
 
 hr {
+	margin-top: 25px;
 	border-top: 1px solid #ccc;
 }
 
@@ -56,13 +33,14 @@ ol {
 
 #w {
 	width: 800px;
+	border: 0;
 }
 
 @media only screen and (max-width: 800px) {
 
 	#w,
 	img {
-		width: 60%;
+		width: 100%;
 	}
 
 	#w {
@@ -103,4 +81,25 @@ ol {
 	hr {
 		border-top: 2px solid #333;
 	}
+}
+
+#t {
+	border: 1px solid white;
+	border-collapse: collapse;
+	max-width: 600px;
+}
+
+#t td {
+	padding: 10px;
+}
+
+footer {
+	color: gray;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
 }
