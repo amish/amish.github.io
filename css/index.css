@@ -2,10 +2,15 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 1.8;
+	/* below is added for test */
+	background: #222;
+	color: #eee;
 }
 
 a {
 	text-decoration: none;
+	/* below is added for test */
+	color: #fa0;
 }
 
 a:hover {
@@ -15,16 +20,26 @@ a:hover {
 hr {
 	margin-top: 25px;
 	border-top: 1px solid #ccc;
+	/* below is added for test */
+	border-top: 2px solid #333;
 }
 
 .i {
 	line-height: 0;
+	/* below is added for test */
+	background-color: #fff;
 }
 
 pre {
 	width: 100%;
 	white-space: pre-wrap;
 	word-wrap: break-word;
+	/* below is added for test */
+	background: #111;
+	border: 10px solid #333;
+	max-width: 100%;
+	width: auto;
+	padding: 10px;
 }
 
 ol {
